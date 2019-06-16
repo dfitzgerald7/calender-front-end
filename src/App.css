@@ -2,3 +2,8 @@
   text-align: center;
 }
 
+.appContainer {
+  width: 400px; 
+  margin-left: auto;
+  margin-right: auto;
+}
