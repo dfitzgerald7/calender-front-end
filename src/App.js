@@ -1,6 +1,6 @@
 import React from 'react';
 import Homepage from './components/Homepage'
-import CalenderContainer from './components/containers/CalenderContainer'
+import CalendarContainer from './components/containers/CalendarContainer'
 import './App.css';
 
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="appContainer">
       <Homepage />
-      <CalenderContainer/>
+      <CalendarContainer/>
     </div>
   );
 }
