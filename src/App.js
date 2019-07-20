@@ -1,8 +1,8 @@
 import React from 'react';
 import Homepage from './components/Homepage'
-import CalenderContainer from './components/stateless/CalenderContainer'
+import CalenderContainer from './components/containers/CalenderContainer'
 import './App.css';
-import calenderContainer from './components/stateless/CalenderContainer';
+
 
 function App() {
   return (
