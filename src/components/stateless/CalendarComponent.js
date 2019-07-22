@@ -8,8 +8,8 @@ const CalendarComponent = props => {
 
     for (let i=1; i<=props.num_days; i++){
         calendarArr.push( 
-            <div className='cell'>       
-                <h5>{i}</h5>
+            <div className='cell' key={'day'+i}>       
+                <h5 className='cellDay'>{i}</h5>
                 <li className='events'>
                     To-do
                 </li>

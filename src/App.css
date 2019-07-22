@@ -9,15 +9,21 @@
 }
 
 .calendarComponent {
-  width: 600px
+  width: 800px
 }
 
 .cell {
   border-style: solid;
-  width: 100px;
+  width: 140px;
+  height: 100px;
   float: left;
 }
 
 #monthDropdown {
   clear: left;
+  text-align: center;
+}
+
+.cellDay {
+  
 }
