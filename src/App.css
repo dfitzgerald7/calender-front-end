@@ -3,15 +3,17 @@
 }
 
 .appContainer {
-  width: 400px; 
+  width: 800px; 
   margin-left: auto;
   margin-right: auto;
 }
 
 .calendarComponent {
-
+  width: 600px
 }
 
 .cell {
   border-style: solid;
+  width: 100px;
+  float: left;
 }
