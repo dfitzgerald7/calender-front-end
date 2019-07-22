@@ -13,10 +13,6 @@ class CalendarContainer extends Component {
         days: []
     }
 
-    componentDidMount(){
-
-    }
-
     onChange = event => {
         event.preventDefault()
         this.setState({

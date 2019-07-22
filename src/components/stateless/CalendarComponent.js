@@ -4,8 +4,6 @@ const CalendarComponent = props => {
 
     const calendarArr = []
 
-
-
     for (let i=1; i<=props.num_days; i++){
         calendarArr.push( 
             <div className='cell' key={'day'+i}>       

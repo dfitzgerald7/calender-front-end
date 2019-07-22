@@ -14,7 +14,7 @@
 
 .cell {
   border-style: solid;
-  width: 140px;
+  width: 150px;
   height: 100px;
   float: left;
 }
@@ -25,5 +25,5 @@
 }
 
 .cellDay {
-  
+
 }
