@@ -4,9 +4,9 @@ const CalendarComponent = props => {
 
     const calendarArr = []
 
-    
 
-    for (let i=1; i<=30; i++){
+
+    for (let i=1; i<=props.num_days; i++){
         calendarArr.push( 
             <div className='cell'>       
                 <h5>{i}</h5>

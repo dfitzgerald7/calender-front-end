@@ -17,3 +17,7 @@
   width: 100px;
   float: left;
 }
+
+#monthDropdown {
+  clear: left;
+}
